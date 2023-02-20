@@ -55,6 +55,17 @@ def save_checkpoint(model, optimizer, learning_rate, iteration, checkpoint_path)
               'optimizer': optimizer.state_dict(),
               'learning_rate': learning_rate}, checkpoint_path)
 
+def save_checkpoint_without_optimizer(model, learning_rate, iteration, checkpoint_path):
+  logger.info("Saving model and optimizer state at iteration {} to {}".format(
+    iteration, checkpoint_path))
+  if hasattr(model, 'module'):
+    state_dict = model.module.state_dict()
+  else:
+    state_dict = model.state_dict()
+  torch.save({'model': state_dict,
+              'iteration': iteration,
+              'optimizer': None,
+              'learning_rate': learning_rate}, checkpoint_path)
 
 def summarize(writer, global_step, scalars={}, histograms={}, images={}, audios={}, audio_sampling_rate=22050):
   for k, v in scalars.items():
