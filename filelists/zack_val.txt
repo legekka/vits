@@ -1,0 +1,102 @@
+dataset/train/99_1.wav|Today we're going to tear down the rather flashy OnePlus Nord. Even if the display did
+dataset/train/99_2.wav|break during the durability test, I still think it's one of my favorite phone colors
+dataset/train/99_3.wav|of the year so far. Vibrant and recognizable. The OnePlus Nord does have a plastic frame.
+dataset/train/99_4.wav|During the bend test it cracked along the power button and the volume rocker. And then
+dataset/train/99_5.wav|the display bit the dust also between those same two points. Today we're going to find
+dataset/train/99_6.wav|out why. I do have an extra OnePlus Nord phone over here with my custom hard case. I'm going
+dataset/train/99_7.wav|to give it away to a random person over on Twitter, so come hang out with me over there.
+dataset/train/99_8.wav|Yeah, the OnePlus Nord is not the most durable phone we've ever seen, but it's still worth
+dataset/train/99_9.wav|taking a look at from the inside.
+dataset/train/99_10.wav|Let's get started.
+dataset/train/99_11.wav|Just like all glass backed phones, I'll start with my heat gun to warm up the adhesive.
+dataset/train/99_12.wav|And normally once it's hot I like to find an antenna line in the metal frame to insert
+dataset/train/99_13.wav|my razor blade, since plastic is a little more forgiving than metal. But since this
+dataset/train/99_14.wav|OnePlus Nord has a completely plastic outer frame, there are no antenna lines and I can
+dataset/train/99_15.wav|just insert my razor blade wherever I want and start slicing that adhesive.
+dataset/train/99_16.wav|One interesting thing to look for inside this Nord is the water-resistance. The OnePlus
+dataset/train/99_17.wav|Nord doesn't have an official IP rating and is the cheapest OnePlus phone for sale right
+dataset/train/99_18.wav|now. So it'll be interesting to see if they got rid of any of that ingress protection.
+dataset/train/99_19.wav|There is still quite a bit of adhesive holding the back panel in place.
+dataset/train/99_20.wav|Our first look inside reveals that the internal battery, of course, is not blue. Dbrand and
+dataset/train/99_21.wav|I added our own color to the OnePlus Nord Teardown design, just like we've done with
+dataset/train/99_22.wav|the red battery on the last few OnePlus phones.
+dataset/train/99_23.wav|I'll remove the 11 screws holding down the top plastics to the motherboard. The back
+dataset/train/99_24.wav|plastics also have the NFC pad attached, but no wireless charging. The bottom of the phone
+dataset/train/99_25.wav|has 7 screws of it's own holding the loudspeaker plastics in place. Then the loudspeaker can
+dataset/train/99_26.wav|be removed. Besides the blue colorization, everything else matches up inside perfectly.
+dataset/train/99_27.wav|One thing that is not represented on the Nord hard case, but is represented on the Teardown
+dataset/train/99_28.wav|skin is the camera modules. I'll leave a link for the skins and the case down in the description.
+dataset/train/99_29.wav|And remember, OnePlus doesn't pay me anything. But the skins I make with dbrand are my own
+dataset/train/99_30.wav|product.
+dataset/train/99_31.wav|The Nord only has a mono loudspeaker, meaning that the sound is only coming from one location,
+dataset/train/99_32.wav|or one end of the phone. But the speaker itself does still have a rubber seal and water resistant
+dataset/train/99_33.wav|mesh over the speaker holes, which is good for basic water-resistance. So OnePlus hasn't
+dataset/train/99_34.wav|cut any corners as far as water-resistance is concerned.
+dataset/train/99_35.wav|I'll unplug the battery, and since it has its own little pull tab... 
+dataset/train/99_36.wav| it comes out of the phone entirely on its own with zero prying. Thumbs up for
+dataset/train/99_37.wav|that. Replaceable batteries are pretty great. This is a rather large 4,115 milliamp hour
+dataset/train/99_38.wav|battery that can charge at 30 watts. Almost the same size as my 4,300 milliamp hour battery
+dataset/train/99_39.wav|inside my Note 10 Plus. I'll remove the two extension ribbons at the bottom of the motherboard,
+dataset/train/99_40.wav|along with the large charging port ribbon – each unsnapping like little Legos. The
+dataset/train/99_41.wav|white and black wire cables can be removed, along with the dual front camera. Here we
+dataset/train/99_42.wav|have a 32 megapixel regular selfie camera, along with an 8 megapixel ultrawide camera.
+dataset/train/99_43.wav|Neither of which have optical image stabilization. There are 4 rear cameras, 3 of which have
+dataset/train/99_44.wav|different perspectives. I'll unplug those and then remove the two screws holding down
+dataset/train/99_45.wav|the motherboard before pulling the rear camera units out. They all reside in one large metal
+dataset/train/99_46.wav|housing which keeps them aligned so they can all work together.
+dataset/train/99_47.wav|The top camera is an 8 megapixel ultrawide. Then we have the 48 megapixel main sensor,
+dataset/train/99_48.wav|followed by the 5 megapixel depth sensor and a 2 megapixel macro camera. The only one that
+dataset/train/99_49.wav|has optical image stabilization is the main 48 megapixel camera. There is the normal thermal
+dataset/train/99_50.wav|paste and copper heat pipe on the back of the motherboard. We normally see this in flagships
+dataset/train/99_51.wav|and it's nice to see that the copper and thermal paste also exist here in the cheaper phone
+dataset/train/99_52.wav|as well. The red rubber surrounding the motherboard connections also helps keep liquid-free if
+dataset/train/99_53.wav|the phone ever accidentally gets wet. There is a white water damage indicator here at
+dataset/train/99_54.wav|the bottom of the motherboard that does turn pink to tattle on you if water does ever get
+dataset/train/99_55.wav|inside.
+dataset/train/99_56.wav|We have the cute little earpiece up here at the top of the phone. This thing does not
+dataset/train/99_57.wav|double as a loudspeaker like we see on most other phones. Before we can get a close look
+dataset/train/99_58.wav|at that heat pipe though I'll have to take out the charging port. There is one silver
+dataset/train/99_59.wav|screw right below the small circular vibrator motor. Then the SIM card tray can pull out
+dataset/train/99_60.wav|and also has its own water-resistant ring around the opening. I'd say this phone is
+dataset/train/99_61.wav|just as water-resistant as the other OnePlus phones.
+dataset/train/99_62.wav|Finally, the little board that contains the bottom microphone and the screen ribbon can
+dataset/train/99_63.wav|come away from the phone, which gives us access to the long charging port ribbon. The charging
+dataset/train/99_64.wav|port shows us even more red rubber around the USB-C. Then the optical underscreen fingerprint
+dataset/train/99_65.wav|scanner. This super tiny little guy here can also come out. The underscreen fingerprint
+dataset/train/99_66.wav|scanner is optical. A super tiny little guy. It can take pictures of your fingerprint through
+dataset/train/99_67.wav|the screen. I'll plop him back into position so we can start removing the display. The
+dataset/train/99_68.wav|screen is controlled by this little ribbon here.
+dataset/train/99_69.wav|There actually is metal inside of the OnePlus Nord, but not the normal CNC'd aluminum that
+dataset/train/99_70.wav|we see in most flagships. This is more of a thin lightweight cast alloy that's actually
+dataset/train/99_71.wav|rather soft...which doesn't end up helping out the structure too much. The easiest way
+dataset/train/99_72.wav|to separate the screen from the phone is with a little bit of heat, and then slicing between
+dataset/train/99_73.wav|the plastic edge of the display and the plastic edge of the phone. This usually kills the
+dataset/train/99_74.wav|screen, but mine's already dead so I'm not too worried. Once I get a new screen, the
+dataset/train/99_75.wav|rest of this phone can be reassembled and it'll probably continue to work just fine.
+dataset/train/99_76.wav|Now that the screen is off, it's interesting to see that OnePlus has a square cutout for
+dataset/train/99_77.wav|the fingerprint scanner instead of a circle. We haven't seen that before on an optical
+dataset/train/99_78.wav|scanner. There is a large layer of graphite tape which is another layer of cooling inside
+dataset/train/99_79.wav|the phone. So we'll have to keep digging for that copper. The reason that OnePlus puts
+dataset/train/99_80.wav|the copper heat system right up against the screen is because of how thin the screen is.
+dataset/train/99_81.wav|It's the easiest place to get rid of the heat from inside the phone. A lot of phone manufacturers
+dataset/train/99_82.wav|do this. Even the main camera on the OnePlus Nord has its own cutout so the sensor itself
+dataset/train/99_83.wav|can dissipate its own heat away through the screen.
+dataset/train/99_84.wav|Scraping away the tape residue from the top of the copper, we finally get a good look
+dataset/train/99_85.wav|at its true size. And for a non-flagship smartphone it's rather impressive. Slicing open the heat
+dataset/train/99_86.wav|pipe reveals that there's not any visible liquid inside, but the copper will still conduct
+dataset/train/99_87.wav|heat regardless of liquid. It might have already evaporated. It does still have it's copper
+dataset/train/99_88.wav|wick inside. The OnePlus Nord has a lot of great things going for it, but it is pretty
+dataset/train/99_89.wav|obvious where corners were cut structurally to bring that price down. It's weak in the
+dataset/train/99_90.wav|same area that we saw in the Nexus 6P back in the day – the area between the battery
+dataset/train/99_91.wav|and the motherboard, along with the weak points in the frame with those side buttons. But
+dataset/train/99_92.wav|this phone is not a flagship and costs hundreds of dollars less than the other OnePlus phones.
+dataset/train/99_93.wav|If it was a flagship I would be quite a bit more harsh.
+dataset/train/99_94.wav|I would like to see future Nord phones be designed much stronger though. Other companies
+dataset/train/99_95.wav|have done it, like the Galaxy A50 from last year, so we'll keep an eye on this Nord line
+dataset/train/99_96.wav|of OnePlus phones.
+dataset/train/99_97.wav|Hit that subscribe button so you don't miss any future videos. And don't forget I still
+dataset/train/99_98.wav|have this new, unscratched, unbroken OnePlus Nord to give away to a random person on Twitter.
+dataset/train/99_99.wav|So come hang out with me over there. And let me know down in the comments, is durability
+dataset/train/99_100.wav|enough of a factor for you that you'll skip this phone entirely? Or will you just be more
+dataset/train/99_101.wav|cautious now that you know it's limits? I'm curious.
+dataset/train/99_102.wav|Thanks a ton for watching. I'll see you around.

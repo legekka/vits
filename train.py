@@ -12,7 +12,6 @@ import torch.multiprocessing as mp
 import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.cuda.amp import autocast, GradScaler
-from lion_pytorch import Lion
 
 # set find_unused_parameters=True
 
@@ -67,7 +66,7 @@ def run(rank, n_gpus, hps):
     writer = SummaryWriter(log_dir=hps.model_dir)
     writer_eval = SummaryWriter(log_dir=os.path.join(hps.model_dir, "eval"))
 
-  dist.init_process_group(backend='gloo', init_method='env://', world_size=n_gpus, rank=rank)
+  dist.init_process_group(backend='nccl', init_method='env://', world_size=n_gpus, rank=rank)
   torch.manual_seed(hps.train.seed)
   torch.cuda.set_device(rank)
 
@@ -94,24 +93,16 @@ def run(rank, n_gpus, hps):
       hps.train.segment_size // hps.data.hop_length,
       **hps.model).cuda(rank)
   net_d = MultiPeriodDiscriminator(hps.model.use_spectral_norm).cuda(rank)
-  # optim_g = torch.optim.AdamW(
-  #     net_g.parameters(), 
-  #     hps.train.learning_rate, 
-  #     betas=hps.train.betas, 
-  #     eps=hps.train.eps)
-  # optim_d = torch.optim.AdamW(
-  #     net_d.parameters(),
-  #     hps.train.learning_rate, 
-  #     betas=hps.train.betas, 
-  #     eps=hps.train.eps)
-
-  # we will use the new Lion optimizer
-  optim_g = Lion(
+  optim_g = torch.optim.AdamW(
       net_g.parameters(), 
-      hps.train.learning_rate)
-  optim_d = Lion(
+      hps.train.learning_rate, 
+      betas=hps.train.betas, 
+      eps=hps.train.eps)
+  optim_d = torch.optim.AdamW(
       net_d.parameters(),
-      hps.train.learning_rate)
+      hps.train.learning_rate, 
+      betas=hps.train.betas, 
+      eps=hps.train.eps)
 
   net_g = DDP(net_g, device_ids=[rank], find_unused_parameters=True)
   net_d = DDP(net_d, device_ids=[rank], find_unused_parameters=True)
@@ -248,8 +239,8 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
       if global_step % hps.train.eval_interval == 0:
         evaluate(hps, net_g, eval_loader, writer_eval)
         model_name = os.path.split(hps.model_dir)[1]
-        utils.save_checkpoint(net_g, optim_g, hps.train.learning_rate, epoch, os.path.join(hps.model_dir, "G_{}.pth".format(model_name)))
-        utils.save_checkpoint(net_d, optim_d, hps.train.learning_rate, epoch, os.path.join(hps.model_dir, "D_{}.pth".format(model_name)))
+        utils.save_checkpoint(net_g, optim_g, hps.train.learning_rate, epoch, os.path.join(hps.model_dir, "G_{}.pth".format(global_step)))
+        utils.save_checkpoint(net_d, optim_d, hps.train.learning_rate, epoch, os.path.join(hps.model_dir, "D_{}.pth".format(global_step)))
     global_step += 1
   
   if rank == 0:
